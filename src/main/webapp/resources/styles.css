@@ -1,0 +1,142 @@
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+#myInput {
+    border-box: box-sizing;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd
+}
+
+.show {
+    display: block;
+}
+
+
+#ageform {
+    margin: 0 auto;
+    width: 35%;
+}
+
+#img1, #img2, #img3 {
+    height: 500px;
+    width: 100%;
+}
+
+#brand, #add, #review, #find, #see {
+    color: firebrick;
+}
+
+/*AddABeer*/
+#addform {
+    margin: 0 auto;
+    width: 30%;
+    border: 5px solid firebrick;
+    padding: 15px;
+}
+
+h1, h2, h3, h5 {
+    text-align: center;
+    color: firebrick;
+}
+
+/*reviewabeer*/
+select {
+    padding: 8px 8px 8px 8px;
+}
+
+#reviewform {
+    margin: 0 auto;
+    width: 55%;
+    border: 5px solid firebrick;
+    padding: 15px;
+}
+
+h4 {
+    color: firebrick;
+}
+
+/*findabeer*/
+.findform {
+    margin: 0 auto;
+    width: 100%;
+    border: 5px solid firebrick;
+    padding: 15px;
+}
+
+/*all result pages*/
+
+.well {
+    text-align: center;
+    color: firebrick;
+}
+
+a {
+    color: firebrick;
+    text-decoration: none;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+/*
+/*seemybeertable*/
+#table1{
+    margin: 0 auto;
+    width: 55%;
+    border: 5px solid firebrick;
+    padding: 15px;
+}
+#table1 tr, #table1 td, #table2 tr, #table2 td {
+    border:1px solid firebrick;
+    padding: 5px;
+    text-align: center;
+}
+
+#table2{
+    margin: 0 auto;
+    width: 100%;
+    border: 5px solid firebrick;
+    padding: 15px;
+}
+
